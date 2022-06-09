@@ -3,13 +3,15 @@ p { background-color: grey; padding: 5px;
     width: 70px; font-size: 20px; border: 2px solid white;
     color: white; margin-left: auto;
 	}
+#y {background-color: black}
+#p {background-color: red}
 
 .i {width: 100%; background-color: #ac5e43; font-family: helvetica;
      padding: 10px; }
 
 .row {width: 100%;}
 
-h1 {color: grey; font-size: 200%; 
+h1 {font-size: 200%; 
 	text-align: center; font-family: verdana;}
 
 .row {width: 100%}
