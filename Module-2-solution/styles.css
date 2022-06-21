@@ -1,15 +1,18 @@
 * {box-sizing: border-box;}
-p { background-color: grey; padding: 5px;
-    width: 70px; font-size: 20px; border: 2px solid white;
-    color: white; margin-left: auto;
+p { background-color: pink; text-align: center;
+    width: 100px; font-size: 20px; 
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black; margin-left: auto; margin-top: auto;
 	}
-#y {background-color: black}
-#p {background-color: red}
+div{padding-left: 10px}
+#y {background-color: yellow}
+#p {background-color: red; color: white;}
 
 
 
-.i {width: 100%; background-color: #ac5e43; font-family: helvetica;
-     padding: 10px; }
+.i {width: 100%; background-color: grey; font-family: helvetica;
+     padding-left: 10px; padding-bottom: 10px;}
 
 .row {width: 100%;}
 
@@ -18,12 +21,11 @@ h1 {font-size: 200%;
 
 .row {width: 100%}
 
-div {padding: 2px solid black}
 
 @media (min-width: 992px) {.col-lg-1, .col-lg-2, .col-lg-3, 
 	.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
 	.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
-	{float: left; padding: 2px solid black; border: 10px solid white}
+	{float: left; border: 10px solid white;}
 .col-lg-1 {width: 8.33%;}
 .col-lg-2 {width: 16.66%}
 .col-lg-3 {width: 25%}
@@ -41,7 +43,7 @@ div {padding: 2px solid black}
         {.col-md-1, .col-md-2, .col-md-3, 
 	.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
 	.col-md-9, .col-md-10, .col-md-11, .col-md-12 
-	{float: left; border: 10px solid white}
+	{float: left; border: 10px solid white;}
 .col-md-1 {width: 8.33%;}
 .col-md-2 {width: 16.66%}
 .col-md-3 {width: 25%}
@@ -58,7 +60,7 @@ div {padding: 2px solid black}
 @media (max-width: 767px){.col-md-1, .col-md-2, .col-md-3, 
 	.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
 	.col-md-9, .col-md-10, .col-md-11, .col-md-12 
-	{float: left; border: 10px solid white}
+	{margin-bottom: 10px; margin-right: 10px; border: 2px solid black;}
 .col-sd-1 {width: 8.33%;}
 .col-sd-2 {width: 16.66%}
 .col-sd-3 {width: 25%}
